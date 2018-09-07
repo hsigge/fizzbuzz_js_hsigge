@@ -1,0 +1,19 @@
+{
+  "name": "fizzbuzz_js_hsigge",
+  "version": "1.0.0",
+  "description": "FizzBuzz js weekend challenge - week 2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hsigge/fizzbuzz_js_hsigge.git"
+  },
+  "author": "Hanna Sigge",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hsigge/fizzbuzz_js_hsigge/issues"
+  },
+  "homepage": "https://github.com/hsigge/fizzbuzz_js_hsigge#readme"
+}
