@@ -114,6 +114,15 @@ Next, we have a function 'eval'. The eval() function evaluates or executes a str
 * [Mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval)
 * [Humanwhocodes.com](https://humanwhocodes.com/blog/2013/06/25/eval-isnt-evil-just-misunderstood/)
 
+### Question 2
+To the best of your knowledge please explain why we are placing the
+```
+let fizzBuzz = new FizzBuzz
+```
+outside the it block?
+
+### Answer 2
+To make this variable available to other functions outside of that block. A variable declared within a block of code is a local scope, and as such not available outside of the block in which they are declared. 
 
 <!---
 ### Question 1
