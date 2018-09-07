@@ -26,7 +26,7 @@ In this challenge, we are revisiting the fizzbuzz kata, but in JS! We are also b
 
 [ ] A PR towards your own master branch
 
-[ ] Answers to the questions in the README
+[ ] Answers to the questions in the README - *Empathize* Please find the questions and answers in a separate section below *Emphathize*
 
 ## Getting Started
 
@@ -36,7 +36,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 Initiate npm with the npm init command in your terminal to create a package.json file. 
 
-We'll be useing the e2e training wheels for testing our code. This provides a minimal test enviroment setup and a set of convinient helpers to be used in acceptance (end-2-end) tests. Install the training wheels by following the instructions on https://www.npmjs.com/package/e2e_training_wheels. 
+We'll be using the e2e training wheels for testing our code. This provides a minimal test enviroment setup and a set of convinient helpers to be used in acceptance (end-2-end) tests. Install the training wheels by following the instructions on https://www.npmjs.com/package/e2e_training_wheels. 
 
 ### Installing
 
@@ -49,6 +49,7 @@ Instructions
 5. Add your implementation of the FizzBuzz to src/FizzBuzz.js to get all tests to pass
 Once you're done with the challenge, commit your work and submit a pull request against the upstream repository.
 
+<!---
 ## Running the tests
 
 Explain how to run the automated tests for this system
@@ -68,6 +69,7 @@ Explain what these tests test and why
 ```
 Give an example
 ```
+--->
 
 ## Deployment
 
@@ -75,10 +77,9 @@ Deploy your index.html on your GitHub pages, by enabling this feature from the "
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
+* Language: Javascript (ES2015)
+* Testing: Mocha & Chai
+* [e2e training wheels](https://www.npmjs.com/package/e2e_training_wheels) - Acceptance test environment
 
 ## Authors
 
@@ -86,9 +87,5 @@ Deploy your index.html on your GitHub pages, by enabling this feature from the "
 
 ## Acknowledgments
 
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
+* Craft Academy boot camp coaches and students of the August 2018 cohort
 
-Language: Javascript (ES2015)
-Testing: Mocha & Chai
