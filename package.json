@@ -4,7 +4,12 @@
   "description": "FizzBuzz js weekend challenge - week 2",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "npm run features && npm run specs",
+    "features": "superstatic src -p 8080 & mocha --timeout 100000 --recursive  --reporter=spec features ; PORT=8080 npm run stop-test-server ",
+    "specs": "mocha --recursive  --reporter=spec spec",
+    "server": "superstatic src -p 3000",
+    "stop-test-server": "lsof -ti tcp:$PORT | xargs kill"
   },
   "repository": {
     "type": "git",
@@ -16,11 +21,4 @@
     "url": "https://github.com/hsigge/fizzbuzz_js_hsigge/issues"
   },
   "homepage": "https://github.com/hsigge/fizzbuzz_js_hsigge#readme"
-}
-"scripts": {
-  "test": "npm run features && npm run specs",
-  "features": "superstatic src -p 8080 & mocha --timeout 100000 --recursive  --reporter=spec features ; PORT=8080 npm run stop-test-server ",
-  "specs": "mocha --recursive  --reporter=spec spec",
-  "server": "superstatic src -p 3000",
-  "stop-test-server": "lsof -ti tcp:$PORT | xargs kill"
 }
