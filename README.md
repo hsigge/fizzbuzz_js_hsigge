@@ -114,6 +114,7 @@ Next, we have a function 'eval'. The eval() function evaluates or executes a str
 * [Mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval)
 * [Humanwhocodes.com](https://humanwhocodes.com/blog/2013/06/25/eval-isnt-evil-just-misunderstood/)
 
+---
 ### Question 2
 Please explain why we are placing the
 ```
@@ -123,13 +124,18 @@ outside the it block?
 
 ### Answer 2
 To make this variable available to other functions outside of that block. A variable declared within a block of code is a local scope, and as such not available outside of the block in which they are declared. 
-
-### Question 1
+---
+### Question 3
 Please explain the difference between using === and == in JS?
 
-### Answer 1
+### Answer 3
 == checks if two variables are equal in value, whereas === checks if they are equal in all aspects (value and type)
+---
+### Question 4
+Please explain why we are moving (number % 5 === 0) to the top?
 
+### Answer 4
+The division by 5 needs to happen before the division of 3 for the FizzBuzz game to return the correct output. As JavaScripts executes code in order, we need to move the function that divides by 5 up so it is above the function that divides by 3. 
 
 <!---
 ### Question 1
