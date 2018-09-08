@@ -91,7 +91,7 @@ Deploy your index.html on your GitHub pages, by enabling this feature from the "
 
 ## Questions &amp; Answers
 ### Question 1
-In your README to the best of your knowledge please explain what the following lines of code do
+Please explain what the following lines of code do
 
 ```
 let  fizzBuzz = fs.readFileSync('./src/js/fizz-buzz.js');
@@ -115,7 +115,7 @@ Next, we have a function 'eval'. The eval() function evaluates or executes a str
 * [Humanwhocodes.com](https://humanwhocodes.com/blog/2013/06/25/eval-isnt-evil-just-misunderstood/)
 
 ### Question 2
-To the best of your knowledge please explain why we are placing the
+Please explain why we are placing the
 ```
 let fizzBuzz = new FizzBuzz
 ```
@@ -123,6 +123,13 @@ outside the it block?
 
 ### Answer 2
 To make this variable available to other functions outside of that block. A variable declared within a block of code is a local scope, and as such not available outside of the block in which they are declared. 
+
+### Question 1
+Please explain the difference between using === and == in JS?
+
+### Answer 1
+== checks if two variables are equal in value, whereas === checks if they are equal in all aspects (value and type)
+
 
 <!---
 ### Question 1
