@@ -137,16 +137,24 @@ Please explain why we are moving (number % 5 === 0) to the top?
 ### Answer 4
 The division by 5 needs to happen before the division of 3 for the FizzBuzz game to return the correct output. As JavaScripts executes code in order, we need to move the function that divides by 5 up so it is above the function that divides by 3. 
 ---
-### Question 
+### Question 5
 Please explain the difference between feature and unit test
 
-### Answer 1
-A unit test is a "pass/fail" test of the functionality of a snippet of code and if the resulting output is as expected. A feature test is testing the useability of the implemented feature in a larger context - so there can be many functions and interdependencies with e.g. databases or web services in a feature test. 
-
+### Answer 5
+A unit test is a "pass/fail" test of the functionality of a block of code and if the resulting output is as expected. A feature test is testing the useability of a certain feature in a larger context - i.e. there can be many functions and interdependencies with e.g. databases or web services in a feature test. 
+---
+### Question 6
+Please explain what expectations in the context of testing are
+### Answer 6
+When testing, we write a specific test to simulate one function or method at a time. We also specify what we expect to see if the test performs correctly.  In other words, the Expectation is that when we test, we get the result we were expecting from a test given the input we've written into the test. 
+#### Sources: 
+* []()
 <!---
-### Question 1
+### Question 
+Please 
 
-### Answer 1
+### Answer 
+
 
 #### Sources: 
 * []()
