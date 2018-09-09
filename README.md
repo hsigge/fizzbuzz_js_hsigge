@@ -167,6 +167,7 @@ Please write a line to line explanation of what is happening in this code
 ````
 
 ### Answer 7
+```
 #1  Calling on the js code in external file fizz-buzz.js to execute on the page
 #2  Opening script tag internal to the document
 #3  "Add event listener" - a Document Object Model (DOM) - processes the function specified only when HTLM file has been loaded (disregarding images and CSS)
@@ -180,7 +181,7 @@ Please write a line to line explanation of what is happening in this code
 #11 
 #12
 #13 Closing local script tag
-````
+```
 ---
 ### Question 8
 Please explain what a CDN (Content Delivery Network) is?
