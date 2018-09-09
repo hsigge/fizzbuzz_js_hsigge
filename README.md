@@ -147,6 +147,41 @@ A unit test is a "pass/fail" test of the functionality of a block of code and if
 Please explain what expectations in the context of testing are
 ### Answer 6
 When testing, we write a specific test to simulate one function or method at a time. We also specify what we expect to see if the test performs correctly.  In other words, the Expectation is that when we test, we get the result we were expecting from a test given the input we've written into the test. 
+---
+### Question 7
+Please write a line to line explanation of what is happening in this code
+```
+#1  <script src="src/js/fizz-buzz.js"></script>
+#2     <script>
+#3         document.addEventListener('DOMContentLoaded', () => {
+#4             let button = document.getElementById('button')
+#5             let displayDiv = document.getElementById('display_answer')
+#6             button.addEventListener('click', () =>{
+#7                let value = document.getElementById('value').value
+#8                 let fizzBuzz = new FizzBuzz
+#9                 let result = fizzBuzz.check(value)
+#10                displayDiv.innerHTML = result;
+#11            })
+#12        })
+#13    </script>
+````
+
+### Answer 7
+#1  Calling on the js code in external file fizz-buzz.js to execute on the page
+#2  Opening script tag internal to the document
+#3  "Add event listener" - a Document Object Model (DOM) - processes the function specified only when HTLM file has been loaded (disregarding images and CSS)
+#4  sets a 'button' variable to the the object with the id 'button'
+#5  sets a  'displayDiv' variable to the object with the id 'display_answer'
+#6  adds an event listener to the button class that executes the function below when the button is clicked
+#7  sets the variable value to the object with the id value 
+#8  sets a new instance (variable fizzBuzz= of the FizzBuzz function defined in fizz-buzz.js
+#9 defines a new variable that checks the value of this instance 
+#10  displays the result on the web page
+#11 
+#12
+#13 Closing local script tag
+````
+
 #### Sources: 
 * []()
 <!---
