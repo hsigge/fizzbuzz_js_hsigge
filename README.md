@@ -181,16 +181,14 @@ Please write a line to line explanation of what is happening in this code
 #12
 #13 Closing local script tag
 ````
-
-#### Sources: 
-* []()
-<!---
-### Question 
-Please 
+---
+### Question 8
+Please explain what a CDN (Content Delivery Network) is?
 
 ### Answer 
-
+A CDN is a newwork of servers that deliver web pages and other content to a user. They are servicing based on proximity, i.e. the closest server geographically will deliver the content. The CDNs primary purpose is to speed up delivery of web pages, and ensure availability, particularly those with high traffic or global reach. 
 
 #### Sources: 
-* []()
+* [webopedia.com](https://www.webopedia.com/TERM/C/CDN.html)
+* [wikipedia.com](https://www.webopedia.com/TERM/C/CDN.html)
 --->
