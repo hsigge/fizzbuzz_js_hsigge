@@ -4,15 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>FizzBuzz</title>
+    <title>FizzBuzz game</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body>
-    <input type="text" id="value">
-    <input type="sumbit" value="Check" id="button">
-    <div id="display_answer">
-        
 
+<body>
+    <div class="relative p-4 border border-grey-lighter w-1/2 border-grey">
+        <img src=../fizzbuzz.png height="relative">
+        <div class="flex flex-wrap items-stretch w-full mb-4 relative text-grey-darker">
+            <h1 font-sans>The fizzbuzz game</h1>
+            <p class="text-grey-darker" font-sans><i>Fizzbuzz</i> is a mathematical game for children to teach them about division. 
+            <br>&nbsp;<br>
+            Players sit in a circle and take turns to count from one, replacing any number divisible by 3 with &amp;fizz, numbers divisible by 5 with "buzz," and numbers divisible by both 3 and 5 with "fizzbuzz." 
+            <br>&nbsp;<br>
+            Enter any number below to check if it's a "fizz," "buzz," or "fizzbuzz" number.
+            <br>&nbsp;
+            </p>
+        </div>		
+        <div class="flex flex-wrap items-stretch w-full mb-4 relative">
+            <div class="flex -mr-px">
+                <span class="flex items-center leading-normal bg-grey-lighter rounded rounded-r-none border border-r-0 border-grey-light px-3 whitespace-no-wrap text-grey-dark text-sm font-sans">Input any number</span>
+            </div>				
+            <input type="text" id="value" class="flex-shrink flex-grow flex-auto leading-normal w-px flex-1 border h-10 border-grey-light px-3 relative font-sans">
+            <div class="flex -mr-px">
+                <span  type="sumbit" value="Check" id="button" class="flex items-center leading-normal bg-grey-lighter rounded rounded-l-none border border-l-0 border-grey-light px-3 whitespace-no-wrap text-grey-dark text-sm font-sans">Go</span>
+            </div>	
+        </div>
+        <div id="display_answer" class="flex flex-wrap items-stretch w-full mb-4 relative font-sans">
+            <div class="flex -mr-px">
+                <span class="flex items-center leading-normal bg-grey-lighter rounded rounded-r-none border border-r-0 border-grey-light px-3 whitespace-no-wrap text-grey-dark text-sm"></span>
+            </div>	
+        </div>
     </div>
+
+
+<!---  original start
+    <div text-center>
+    <div text-center>
+        <div text-center>
+        <input type="text" id="value" placeholder="number">
+          <div text-center>
+            <input type="sumbit" value="Check" id="button">
+          </div>
+        </div>
+        Scroll me!
+        Lorem ipsum...
+    </div>
+      
+        <div id="display_answer"></div>
+    </div>
+original end   --->
+
 </body>
 
 <script src="src/js/fizz-buzz.js"></script>
@@ -28,4 +70,5 @@
             })
         })
     </script>
+    
 </html>

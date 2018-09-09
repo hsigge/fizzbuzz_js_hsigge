@@ -5,31 +5,11 @@ const browser = new BrowserHelpers();
 describe('User can input a value and get FizzBuzz results', () => {
   before(async () => {
     await browser.init()
-    await browser.visitPage('http://localhost:800/')
+    await browser.visitPage('http://localhost:8080/')
   });
 
   beforeEach(async () => {
     await browser.page.reload();
-  });
-
-  after(async () => {
-    await browser.close();
-  })
-});
-
-
-describe('sample UI test', () => {
-  before( async () => {
-    await browser.init();
-    await browser.visitPage('http://localhost:8080/');
-  });
- 
-  beforeEach(async () => {
-    await browser.page.reload();
-  });
- 
-  after(async () => {
-    await browser.close();
   });
  
   it('/clicking on the "Check" button', async () => {
@@ -38,4 +18,9 @@ describe('sample UI test', () => {
     let content = await browser.getContent("[id='display_answer']")
     expect(content).to.eql('Fizz');  
   });
+
+  after(async () => {
+    await browser.close();
+  });
+  
 });
